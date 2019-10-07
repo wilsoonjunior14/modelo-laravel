@@ -1,0 +1,219 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2018, 19:23:11
+    Author     : Wilson
+*/
+
+.description{
+    height: 35px;
+    color: white;
+    background-color: #2b333a;
+    margin-top: -35px;
+}
+
+.description p{
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.card-action .opcao{
+    color: black !important;
+    text-transform: capitalize !important;
+    cursor: pointer;
+}
+
+.card-action .opcao i{
+    color: black;
+}
+
+.send-comentario{
+    margin-top: 20px;
+}
+
+.chip i{
+    margin-top: 10px;
+}
+
+.select2{
+    margin-top: 5px !important;
+    margin-left: 35px !important;
+    width: calc(100% - 35px) !important;
+}
+
+.label-select2{
+    margin-top: -30px !important;
+}
+
+.opcoes{
+    min-width: 150px !important;
+}
+
+i:hover, .chip:hover{
+    cursor: pointer !important;
+}
+
+.mensagem{
+    height: 250px !important;
+    text-align: left !important;
+}
+
+.invisible{
+    display: none !important;
+}
+
+.ativar{
+    background-color: #142e4e !important;
+}
+.ativar a{
+    color: white !important;
+}
+
+select{
+    display: block !important;
+    border-bottom: 1px solid gray;
+    width: calc(100% - 40px);
+    margin-left: 40px !important;
+}
+
+.select label{
+    color: black;
+    width: 100%;
+    padding-left: 80px;
+    margin: -38px -38px -38px -38px !important;
+}
+
+select:focus{
+    border: none !important;
+}
+
+h1{
+    font-size: 30px;
+}
+
+nav .right{
+    margin-top: 15px;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+nav .right div{
+    width: 230px !important;
+    text-transform: capitalize;
+}
+
+nav .right div i{
+    margin-top: -15px;
+    margin-left: 5px;
+    padding-right: 5px;
+    margin-right: -5px;
+}
+
+.container{
+    padding-top: 10px;
+    width: 100% !important;
+    max-width: calc(100vw - 350px - 100vw*0.05) !important;
+    margin-left: calc(350px + 100vw*0.025) !important;
+    text-align: center;
+}
+
+.container-left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 64px;
+    height: calc(100vh);
+    width: 350px;
+    padding-top: 15px;
+}
+
+.azul-padrao, .azul-padrao .collapsible-header{
+    background-color: #2b333a !important;
+}
+
+.azul-padrao-text{
+    color:  #2b333a !important;
+}
+
+.collapsible li{
+    border-bottom: 2px solid gray !important;
+    margin-bottom: 10px !important;
+}
+
+.collapsible-header, .collapsible-body, .collapsible{
+    width: 100%;
+    border: none !important;
+    font-size: 15px !important;
+}
+
+.collapsible-header a{
+    color: white !important;
+    width: 100%;
+    text-align: left;
+}
+
+.collapsible-header:hover, .collapsible-body section:hover{
+    font-weight: bold;
+}
+.collapsible-header{
+    font-size: 18px !important;
+}
+
+.collapsible-header .right{
+    position: absolute;
+    margin-left: 80% !important;
+}
+
+.collapsible-body section{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.collapsible-body section a{
+    color: white !important;
+}
+
+#dropConfiguracoes{
+    border-radius: 8% !important;
+    margin-top: 49px !important;
+}
+
+#dropConfiguracoes li a{
+    color: #142e4e;
+}
+
+@media screen and (max-width: 520px){
+    
+    .container{
+        width: 90% !important;
+        max-width: 100% !important;
+        margin-left: calc(5vw) !important;
+    }
+    
+    .container-left{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 480px) {
+    .container{
+        width: 90% !important;
+        max-width: 100% !important;
+        margin-left: calc(5vw) !important;
+    }
+    
+    
+    .container-left{
+        display: none;
+    }
+}
